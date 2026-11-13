@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": "aether:ambrosium_shard"
+  },
+  "result": {
+    "id": "aether:golden_amber"
+  }
+}

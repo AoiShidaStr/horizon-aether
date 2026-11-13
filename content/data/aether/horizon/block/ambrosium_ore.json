@@ -1,0 +1,7 @@
+{
+  "template": "minecraft:coal_ore",
+  "item": true,
+  "properties": {
+    "light": 7
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "template": "minecraft:white_wool",
+  "item": true,
+  "properties": {
+    "hardness": 0.2
+  }
+}

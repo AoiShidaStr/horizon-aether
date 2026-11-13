@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": "aether:skyroot_crafting_table"
+  },
+  "result": {
+    "id": "aether:skyroot_planks",
+    "count": 4
+  }
+}

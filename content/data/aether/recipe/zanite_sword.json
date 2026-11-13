@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z",
+    "Z",
+    "S"
+  ],
+  "key": {
+    "Z": "aether:zanite_gemstone",
+    "S": "aether:skyroot_stick"
+  },
+  "result": {
+    "id": "aether:zanite_sword"
+  }
+}

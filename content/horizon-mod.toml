@@ -1,0 +1,8 @@
+id = "aether"
+name = "The Aether"
+version = "0.1.0"
+description = "The Aether's sky islands, ores, gear and three bosses (Slider, Valkyrie Queen, Sun Spirit) for Horizon. Clean-room port from public behaviour descriptions; original code and placeholder textures."
+authors = ["Saison 2 server"]
+api = "0.2"
+side = "both"
+capabilities = ["registries"]

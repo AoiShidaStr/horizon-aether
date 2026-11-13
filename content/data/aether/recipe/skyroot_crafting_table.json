@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": "aether:skyroot_planks"
+  },
+  "result": {
+    "id": "aether:skyroot_crafting_table"
+  }
+}

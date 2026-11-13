@@ -1,0 +1,7 @@
+{
+  "template": "minecraft:furnace",
+  "item": true,
+  "properties": {
+    "light": 0
+  }
+}
