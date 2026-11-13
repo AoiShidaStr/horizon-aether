@@ -59,12 +59,20 @@ The native crate is pinned to Horizon `a85af177a82504f357ff10d5d40d0b7230e2ac32`
 
 ## Done / Missing
 
-Done:
+Done (checked on the build VPS against Horizon `a85af177a`):
+
+| Check | State |
+| --- | --- |
+| `cargo test -p mod-aether` | 5 passed, 0 failed |
+| `cargo check -p horizon-native-game` (client flavour) | finished, exit 0 |
+| `cargo build -p horizon-native-game --no-default-features` (dedicated server engine with the mod) | finished, exit 0 |
 
 - Content mod: blocks, items, ores with drops, recipes, loot, tags, creative
-  tab, two languages, procedural textures. Packs to `target/aether.hmod`.
+  tab, two languages, procedural textures. Packs to `target/aether.hmod`
+  (63 824 bytes).
 - Native mod: goals, sizes, immunities, no conversions; unit tests for the
-  boss table and the damage-type sets.
+  boss table and the damage-type sets. Packs to `target/aether.hnmod`
+  (7 837 bytes).
 - VPS scripts in `tools/` (`vps_sync.sh` copies and stages, `vps_stage.sh`
   reproduces the launcher's native staging).
 
@@ -83,7 +91,10 @@ Missing (honest list):
   attacks) are not implemented; only their melee, immunities and size.
 - Dungeons, accessories (parachutes, pendants), aether mobs other than the
   three bosses, and the Aether's own progression are absent.
-- Not yet smoke-tested in a running game: the native halves only reached
-  compile/test level in this session.
+- `cargo horizon-mod check` was not run: the tool is not installed on the
+  build PC or the VPS.
+- Not yet smoke-tested in a running game: the native half reached
+  compile/test level only. In particular the content definitions (block/item
+  templates, entity types, loot) were not loaded by a running server yet.
 
 Status: **partial**.
